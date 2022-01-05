@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Alegreya&display=swap");
 
 body {
-  background-color: white;
+  background-color: #edede9;
   font-family: "Open Sans", sans-serif;
   padding: 5px 25px;
   font-size: 18px;
@@ -44,13 +44,17 @@ footer p {
 }
 
 header h1 {
-  grid-column: 2 / 4;
+  grid-column: 2 / 5;
   color: white;
 }
 
 #wdd230_content {
   align-items: center;
   width: 40%;
+  margin: 0 auto;
+  padding: 2em;
+  background-color: white;
+  box-shadow: 2px 2px 10px #666;
 }
 
 .date_last_updated p {
