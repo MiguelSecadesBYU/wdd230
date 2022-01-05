@@ -7,5 +7,4 @@ function date() {
 
 let d = new Date();
 
-let fulldate = d.getDay() + " / " + d.getMonth() + " / " + d.getFullYear() + " " + d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
-document.getElementById("last_updated").textContent = fulldate;
+document.getElementById("modify").innerHTML = document.lastModified
