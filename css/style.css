@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@700&display=swap");
 
 body {
   background-color: #edede9;
@@ -24,6 +25,9 @@ footer {
   padding: 1em;
 }
 
+h1 {
+  font-family: "Alegreya SC", serif;
+}
 footer p {
   color: white;
   text-align: center;
