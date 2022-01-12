@@ -52,11 +52,13 @@ footer {
   padding: 1rem;
   width: 100%;
   margin: -16px;
+  margin-bottom: 0.5rem;
   color: white;
   border-radius: 10px 10px 0px 0px;
 }
 #lesson2_content main {
   display: grid;
+  max-width: fit-content;
   grid-template-columns: 1fr;
   font-size: 0.8rem;
 }
@@ -124,4 +126,9 @@ header h1 {
 .info {
   font-style: italic;
   font-size: 80%;
+}
+
+#home_link {
+  grid-column: 1;
+  text-align: center;
 }

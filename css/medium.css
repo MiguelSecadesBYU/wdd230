@@ -20,6 +20,10 @@
     grid-template-columns: 1fr 1fr; 
   }
 
+  #home_link {
+    grid-column: 1/3;
+    }
+
   header h1 {
     grid-column: 2 / 5;
     justify-self: center;

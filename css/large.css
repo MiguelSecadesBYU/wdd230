@@ -2,4 +2,9 @@
   #lesson2_content main {
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+  #home_link {
+    grid-column: 1/4;
+    text-align: center;
+  }
 }
