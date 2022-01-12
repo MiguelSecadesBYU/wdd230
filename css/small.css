@@ -10,8 +10,7 @@ body {
 }
 
 header {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: block;
   align-items: center;
   background-color: #023e8a;
   border-radius: 15px 15px 15px 15px;
@@ -47,9 +46,11 @@ footer p {
   text-align: center;
 }
 
-.portrait img {
-  margin: 1em 1em 1em 4em;
-  max-width: 97%;
+.portrait {
+  max-width: 20%;
+  display: block;
+  margin: auto;
+  padding: 1rem;
 }
 
 #wdd230_content ul li {
@@ -61,7 +62,7 @@ header h1 {
   color: white;
   padding: 0.5rem;
   text-align: center;
-  margin-top: -1.5rem;
+  margin-top: -1rem;
 }
 
 #wdd230_content {
