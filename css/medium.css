@@ -16,6 +16,10 @@
     display:grid;
   }
 
+  #lesson2_content main{
+    grid-template-columns: 1fr 1fr; 
+  }
+
   header h1 {
     grid-column: 2 / 5;
     justify-self: center;
@@ -47,10 +51,10 @@
   #lesson2_content {
     align-items: center;
     width: 40%;
-
     margin: 0 auto;
     padding: 2rem;
     background-color: white;
     box-shadow: 2px 2px 10px #666;
+    min-width: fit-content;
   }
 }

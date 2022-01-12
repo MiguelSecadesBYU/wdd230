@@ -1,0 +1,5 @@
+@media only screen and (min-width: 37.5em) {
+  #lesson2_content main {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

@@ -15,6 +15,20 @@ header {
   background-color: #023e8a;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 2px 2px 10px #666;
+  margin-top: 1rem;
+}
+
+article {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  background-color: #edede9;
+  box-shadow: 2px 2px 10px #666;
+  margin: 0.5rem;
+  border-radius: 10px 10px 10px 10px;
+}
+
+article img {
+  max-width: 15rem;
 }
 
 footer {
@@ -30,8 +44,22 @@ footer {
   color: white;
   padding: 1rem;
   margin-top: -0.5rem;
+  min-width: fit-content;
 }
 
+#lesson2_content h3 {
+  background-color: #023e8a;
+  padding: 1rem;
+  width: 100%;
+  margin: -16px;
+  color: white;
+  border-radius: 10px 10px 0px 0px;
+}
+#lesson2_content main {
+  display: grid;
+  grid-template-columns: 1fr;
+  font-size: 0.8rem;
+}
 h1 {
   font-family: "Alegreya SC", serif;
   font-size: 1.5rem;
@@ -39,11 +67,12 @@ h1 {
 }
 h2 {
   font-size: 1rem;
-  border-bottom: 1px solid #999;
   margin-bottom: 0.5rem;
   text-align: center;
 }
-
+#wdd230_content h2 {
+  border-bottom: 1px solid #999;
+}
 main ul {
   border-bottom: 1px solid #999;
   margin-bottom: 0.5rem;
