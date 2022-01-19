@@ -37,14 +37,16 @@ footer {
   font-size: 60%;
 }
 
-#lesson2_content h2 {
+#lesson2_content h2,
+#lesson3_content h2 {
   color: white;
   padding: 1rem;
   margin-top: -0.5rem;
   min-width: fit-content;
 }
 
-#lesson2_content h3 {
+#lesson2_content h3,
+#lesson3_content {
   background-color: #023e8a;
   padding: 1rem;
   width: 100%;
@@ -53,7 +55,8 @@ footer {
   color: white;
   border-radius: 10px 10px 0px 0px;
 }
-#lesson2_content main {
+#lesson2_content main,
+#lesson3_content {
   display: grid;
   max-width: fit-content;
   grid-template-columns: 1fr;
@@ -108,7 +111,8 @@ header h1 {
   box-shadow: 2px 2px 10px #666;
 }
 
-#lesson2_content {
+#lesson2_content,
+#lesson3_content {
   align-items: center;
   margin: 0 auto;
   padding: 0.5rem;
