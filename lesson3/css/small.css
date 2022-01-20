@@ -7,14 +7,20 @@ body {
 }
 
 header {
-  display: grid;
+  display: block;
   align-items: center;
-  grid-template-columns: 300px auto;
   background-color: black;
+}
+header h1 {
+  color: white;
+  font-size: 2rem;
+  margin-top: -40px;
+  text-align: center;
 }
 footer {
   background-color: black;
   color: white;
+  text-align: center;
 }
 
 nav {
@@ -45,10 +51,10 @@ nav a:visited {
 
 nav ul {
   list-style: none; /* removes the bullets! */
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+  display: block;
   margin: 0;
   height: 100%;
+  padding: 0;
 }
 
 #lesson3_content {
@@ -61,5 +67,11 @@ nav ul {
 }
 
 #logo img {
-  width: 75%;
+  width: 200px;
+  margin: auto;
+  display: block;
+}
+
+main img {
+  width: 200px;
 }
