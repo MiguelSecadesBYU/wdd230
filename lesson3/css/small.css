@@ -33,6 +33,7 @@ td {
   height: 100px;
   width: 150px;
   text-align: center;
+  border: 1px solid var(--secondary-color);
 }
 header {
   display: block;
@@ -53,6 +54,7 @@ h2,
 h3 {
   font-family: "Alegreya SC", serif;
 }
+
 footer {
   background-color: var(--primary-color);
   color: var(--accent1-color);
