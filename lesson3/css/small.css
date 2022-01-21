@@ -10,13 +10,9 @@
   background-color: var(--primary-color);
   color: var(--accent1-color);
   justify-content: center;
-  text-align: c;
-  text-align: c;
-  width: 1;
 }
 .secondary {
   background-color: var(--secondary-color);
-  text-align: c;
 }
 .accent1 {
   background-color: var(--accent1-color);
@@ -30,6 +26,7 @@ body {
   padding: 5px 25px;
   font-size: 16px;
   margin: 0;
+  font-family: "Roboto", sans-serif;
   /* max-width: fit-content; */
 }
 td {
@@ -49,24 +46,30 @@ header h1 {
   margin-top: -3rem;
   text-align: center;
   grid-column: 2/3;
-  margin: o;
+  margin: 0;
+}
+h1,
+h2,
+h3 {
+  font-family: "Alegreya SC", serif;
 }
 footer {
   background-color: var(--primary-color);
   color: var(--accent1-color);
   text-align: center;
+  border: 1px solid var(--secondary-color);
 }
 
 nav {
   background-color: var(--accent2-color);
   grid-column: 3;
-  line-height: em;
   text-align: center;
   font-size: 1.3rem;
   border: 1px solid var(--secondary-color);
 }
 
 nav a {
+  font-family: "Alegreya SC", serif;
   color: var(--accent2-color);
   text-decoration: none;
 }
@@ -82,7 +85,7 @@ nav a:hover {
   background-color: var(--secondary-color);
 }
 
-li:hover {
+nav li:hover {
   background-color: var(--secondary-color);
 }
 
@@ -118,5 +121,5 @@ main img {
   width: 200px;
 }
 main {
-  padding: 0.5rem;
+  padding: 1rem;
 }
