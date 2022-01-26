@@ -1,0 +1,33 @@
+/* 64rem is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+  nav button {
+    display: none;
+  }
+  nav ul#primaryNav {
+    display: flex;
+    justify-content: center;
+    margin-left: 2vw;
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+  }
+
+  nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+  }
+  .logo img {
+    width: 100%;
+  }
+  .headings h1 {
+    font-size: 3rem;
+  }
+
+  .m {
+    font-size: 1.5rem;
+  }
+
+  #join,
+  #event,
+  #weather {
+    display: flex;
+  }
+} /* end large */

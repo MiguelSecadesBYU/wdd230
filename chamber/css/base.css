@@ -1,0 +1,230 @@
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: black;
+  --secondary-color: #c4ae3d;
+  --accent1-color: white;
+  --accent2-color: #888098;
+}
+
+.primary {
+  background-color: var(--primary-color);
+  color: var(--accent1-color);
+  justify-content: center;
+}
+.secondary {
+  background-color: var(--secondary-color);
+}
+.accent1 {
+  background-color: var(--accent1-color);
+}
+.accent2 {
+  background-color: var(--accent2-color);
+}
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1,
+p {
+  margin: 0 2vw;
+}
+
+nav {
+  background-color: #eee;
+  margin-right: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  color: #555;
+}
+nav button {
+  margin: 0.2rem 2vw;
+  background-color: transparent;
+  border: none;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0.8rem 2vw;
+  text-decoration: none;
+  color: #333;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  font-size: 0.8rem;
+}
+
+nav ul li.active a {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+  display: none;
+}
+nav ul.open {
+  display: block;
+}
+#hamburgerBtn span:nth-child(1) {
+  display: block;
+}
+#hamburgerBtn span:nth-child(2) {
+  display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+  display: none;
+}
+#hamburgerBtn.open span:nth-child(2) {
+  display: block;
+}
+
+header {
+  background-color: var(--primary-color);
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+}
+body {
+  background-color: var(--accent1-color);
+  padding: 5px 25px;
+  font-size: 16px;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  background-color: var(--accent1-color);
+  color: var(--primary-color);
+}
+#chamber_home_content {
+  align-items: center;
+  margin: 0 auto;
+  background-color: var(--primary-color);
+  box-shadow: 2px 2px 10px #666;
+  max-width: 900px;
+  border: 2px solid var(--secondary-color);
+}
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.logo img {
+  width: 80px;
+  height: auto;
+}
+
+.headings {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.5rem;
+}
+
+.headings h1 {
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+  margin: 0;
+}
+
+.m {
+  letter-spacing: 1pt;
+  color: var(--accent1-color);
+  font-weight: 700;
+  font-size: 0.5rem;
+}
+
+.social {
+  justify-content: end;
+}
+
+.social img {
+  width: 30%;
+  height: auto;
+}
+date {
+  margin: 0.5rem;
+  color: var(--accent1-color);
+  border: 2px solid var(--secondary-color);
+  padding: 0.75rem;
+  background-color: var(--accent2-color);
+  letter-spacing: 1pt;
+  font-weight: 700;
+  font-size: 0.5rem;
+}
+
+#callToAction {
+  width: 95%;
+  height: 6rem;
+  background-color: var(--accent2-color);
+  border: 2px solid var(--secondary-color);
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+#news {
+  width: 95%;
+  height: 6rem;
+  background-color: var(--accent2-color);
+  border: 2px solid var(--secondary-color);
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+#spotLights {
+  width: 95%;
+  height: fit-content;
+  background-color: var(--accent2-color);
+  border: 2px solid var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+#spotLight1 {
+  width: 95%;
+  height: 6rem;
+  background-color: var(--accent2-color);
+  border: 2px solid var(--secondary-color);
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+#spotLight2 {
+  width: 95%;
+  height: 6rem;
+  background-color: var(--accent2-color);
+  border: 2px solid var(--secondary-color);
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#join,
+#event,
+#weather {
+  display: none;
+}
