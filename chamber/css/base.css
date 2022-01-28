@@ -50,6 +50,7 @@ nav ul {
   margin: 0;
   color: #555;
 }
+
 nav button {
   margin: 0.2rem 2vw;
   background-color: transparent;
@@ -63,7 +64,7 @@ nav ul li a {
   text-decoration: none;
   color: #333;
   border-top: 1px solid rgba(0, 0, 0, 0.5);
-  font-size: 0.8rem;
+  font-size: 1.5rem;
 }
 
 nav ul li.active a {
@@ -77,9 +78,11 @@ nav ul li a:hover {
 
 nav ul {
   display: none;
+  width: 2;
 }
 nav ul.open {
   display: block;
+  width: 1;
 }
 #hamburgerBtn span:nth-child(1) {
   display: block;
@@ -99,10 +102,12 @@ header {
   background-color: var(--primary-color);
   padding: 5px 0;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   max-width: 900px;
   margin: 0 auto;
+  justify-content: ;
 }
 body {
   background-color: var(--accent1-color);
@@ -115,6 +120,8 @@ body {
 main {
   background-color: var(--accent1-color);
   color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
 }
 #chamber_home_content {
   align-items: center;
@@ -122,7 +129,6 @@ main {
   background-color: var(--primary-color);
   box-shadow: 2px 2px 10px #666;
   max-width: 900px;
-  border: 2px solid var(--secondary-color);
 }
 .logo {
   display: flex;
@@ -179,11 +185,12 @@ main {
   letter-spacing: 1pt;
   color: var(--accent1-color);
   font-weight: 700;
-  font-size: 0.5rem;
+  font-size: 0.4rem;
 }
 
 .social {
   justify-content: end;
+  width: fit-content;
 }
 
 .social img {
@@ -191,30 +198,29 @@ main {
   height: auto;
 }
 date {
-  margin: 0.5rem;
+  width: 95%;
   color: var(--accent1-color);
-  border: 2px solid var(--secondary-color);
   padding: 0.75rem;
   background-color: var(--accent2-color);
   letter-spacing: 1pt;
   font-weight: 700;
   font-size: 0.5rem;
+  text-align: center;
 }
 
 #callToAction {
   width: 95%;
-  height: 6rem;
+  height: 8rem;
   background-color: var(--accent2-color);
-  border: 2px solid var(--secondary-color);
   display: flex;
   align-items: center;
   margin: 0 auto;
+  margin-top: 10px;
 }
 #news {
   width: 95%;
-  height: 6rem;
+  height: 8rem;
   background-color: var(--accent2-color);
-  border: 2px solid var(--secondary-color);
   display: flex;
   align-items: center;
   margin: 0 auto;
@@ -224,18 +230,18 @@ date {
   width: 95%;
   height: fit-content;
   background-color: var(--accent2-color);
-  border: 2px solid var(--secondary-color);
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
   margin-top: 5px;
+  margin-bottom: 10px;
 }
 #spotLight1 {
   width: 95%;
-  height: 6rem;
+  height: 8rem;
   background-color: var(--accent2-color);
-  border: 2px solid var(--secondary-color);
+  border: 1px solid var(--secondary-color);
   display: flex;
   align-items: center;
   margin: 0 auto;
@@ -243,9 +249,9 @@ date {
 }
 #spotLight2 {
   width: 95%;
-  height: 6rem;
+  height: 8rem;
   background-color: var(--accent2-color);
-  border: 2px solid var(--secondary-color);
+  border: 1px solid var(--secondary-color);
   display: flex;
   align-items: center;
   margin: 0 auto;

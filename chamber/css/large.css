@@ -1,19 +1,36 @@
 /* 64rem is also 1028px when basefont is 16px */
 @media only screen and (min-width: 64rem) {
+  nav {
+    background-color: var(--primary-color);
+    margin-bottom: 20px;
+  }
   nav button {
     display: none;
   }
   nav ul#primaryNav {
     display: flex;
-    justify-content: center;
-    margin-left: 2vw;
-    border-left: 1px solid rgba(0, 0, 0, 0.3);
+    justify-items: center;
   }
 
   nav ul li a {
     border: none;
-    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    font-size: 1rem;
+    color: var(--accent1-color);
   }
+
+  nav ul li a:hover {
+    background-color: var(--secondary-color);
+  }
+
+  nav ul li.active a {
+    background-color: var(--secondary-color);
+  }
+
+  .social img {
+    width: 40%;
+    height: auto;
+  }
+
   .logo img {
     width: 100%;
   }
@@ -29,5 +46,9 @@
   #event,
   #weather {
     display: flex;
+  }
+  date {
+    margin: auto;
+    margin-bottom: 10px;
   }
 } /* end large */
