@@ -57,6 +57,7 @@ nav button {
 }
 
 nav ul li a {
+  font-weight: 100;
   display: block;
   padding: 0.8rem 2vw;
   text-decoration: none;
@@ -134,6 +135,12 @@ main {
   height: auto;
 }
 
+.footerLogo img {
+  display: block;
+  margin: auto;
+  width: 80px;
+  height: auto;
+}
 .headings {
   display: flex;
   flex-direction: column;
@@ -144,6 +151,28 @@ main {
   font-size: 1.5rem;
   color: var(--secondary-color);
   margin: 0;
+}
+
+.footerText h1 {
+  font-size: 1rem;
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+.footerText p {
+  font-size: 1rem;
+  color: var(--accent1-color);
+  text-align: center;
+}
+.footer2ndPart {
+  margin-top: 10px;
+  line-height: 2rem;
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.footer3rdPart {
+  margin-top: 10px;
+  font-size: 5px;
 }
 
 .m {
