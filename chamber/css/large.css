@@ -49,6 +49,7 @@
   main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    align-items: c;
   }
   #callToAction {
     display: grid;
