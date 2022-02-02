@@ -223,8 +223,11 @@ span#currentDate {
 }
 .hero {
   grid-area: 1 / 1 / 2 / 2;
-  background-color: var(--accent2-color);
+  width: 100%;
 }
+/*.hero img {
+  width: 100%;
+}*/
 .news {
   background-color: var(--accent2-color);
   grid-area: 4 / 1 / 5 / 2;
