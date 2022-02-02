@@ -129,9 +129,9 @@ main {
 }
 
 main div {
-  background-color: var(--accent2-color);
+  /* background-color: var(--accent2-color);
   display: block;
-  padding: 1em;
+  padding: 1em;*/
 }
 
 #chamber_home_content {
@@ -223,11 +223,23 @@ span#currentDate {
 }
 .hero {
   grid-area: 1 / 1 / 2 / 2;
+  position: relative;
+}
+.callToAction {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  padding: 1.5rem;
+  background: radial-gradient(#eee, #c4ae3d);
+  color: var(--primary-color);
+  font-weight: 800;
+  box-shadow: 0 0 30px #333;
+  opacity: 0.9;
+  border-radius: 40px;
+}
+.hero img {
   width: 100%;
 }
-/*.hero img {
-  width: 100%;
-}*/
 .news {
   background-color: var(--accent2-color);
   grid-area: 4 / 1 / 5 / 2;
