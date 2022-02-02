@@ -6,7 +6,7 @@
     grid-column-gap: 10px;
     grid-row-gap: 10px;
   }
-  .callToAction {
+  .hero {
     grid-area: 1 / 1 / 2 / 3;
   }
   .news {

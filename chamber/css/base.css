@@ -221,7 +221,7 @@ span#currentDate {
   font-size: 0.7rem;
   text-align: center;
 }
-.callToAction {
+.hero {
   grid-area: 1 / 1 / 2 / 2;
   background-color: var(--accent2-color);
 }
