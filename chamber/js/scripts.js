@@ -23,4 +23,17 @@ const fulldate = new Intl.DateTimeFormat("en-UK", {
 
 document.getElementById('currentDate').innerHTML = `<em>${fulldate}</em>`;
 
+let dayOfWeek;
+const banner = document.getElementById("banner");
+dayOfWeek = today.getDay();
+if (dayOfWeek === 1 || dayOfWeek === 2){
+  //  document.getElementById("banner").classList.toggle("open");
+    
+    banner.style.display = "block";
+    
+}else{
+    document.getElementById("banner").style.visibility='hiden';
+    banner.style.display = "none";
+}
+
 

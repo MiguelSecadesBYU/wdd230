@@ -293,3 +293,15 @@ span#currentDate {
   color: var(--secondary-color);
   font-weight: 700;
 }
+
+#banner {
+  background-color: var(--accent1-color);
+  height: 50px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 800;
+  font-size: larger;
+}
+/*.banner {
+  display: none;
+}*/
