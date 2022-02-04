@@ -250,7 +250,6 @@ span#currentDate {
   width: 100%;
 }
 .spotLights div img {
-  /* margin: 0 auto; */
   margin: 0px auto;
   text-align: center;
   margin: 0;
@@ -262,13 +261,9 @@ span#currentDate {
   grid-area: 5 / 1 / 6 / 2;
 }
 .spotLight1 {
-  /*width: 95%; 
-  height: 8rem; */
   margin: 0 auto;
 }
 .spotLight2 {
-  /*  width: 95%;
-  height: 8rem;*/
   margin: 0 auto;
 }
 .spotLight3 {
@@ -302,6 +297,3 @@ span#currentDate {
   font-weight: 800;
   font-size: larger;
 }
-/*.banner {
-  display: none;
-}*/
