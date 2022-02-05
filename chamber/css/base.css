@@ -82,6 +82,10 @@ nav ul {
 }
 nav ul.open {
   display: block;
+  position: absolute;
+  z-index: 1;
+  background-color: #fff;
+  left: 0;
 }
 #hamburgerBtn span:nth-child(1) {
   display: block;
