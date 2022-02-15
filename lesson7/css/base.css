@@ -1,0 +1,28 @@
+body {
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 37%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+h1,
+ul li {
+  text-align: center;
+}
+h1 {
+  color: white;
+}
+ul {
+  list-style-type: none;
+}
+
+img {
+  margin: 1em;
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
+
+img[data-src] {
+  filter: blur(0.2em);
+}
