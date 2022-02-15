@@ -1,4 +1,6 @@
 body {
+  text-align: center;
+  margin: 0;
   background: rgb(255, 255, 255);
   background: radial-gradient(
     circle,
@@ -6,23 +8,37 @@ body {
     rgba(0, 0, 0, 1) 100%
   );
 }
-h1,
-ul li {
-  text-align: center;
+div {
+  background-color: #d8e2dc;
+  padding: 10px;
+  max-width: 30vw;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 15px 0 10px -10px rgba(136, 136, 136, 0.97),
+    -15px 0 10px -10px rgba(136, 136, 136, 0.97);
 }
 h1 {
-  color: white;
+  text-align: center;
+  font-family: "Lobster", cursive;
+  letter-spacing: 1.5px;
+  color: #3c096c;
+  text-decoration: underline wavy;
 }
-ul {
-  list-style-type: none;
+picture {
+  display: block;
+  background-color: white;
+  padding: 10px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  box-shadow: 15px 0 10px -10px rgba(136, 136, 136, 0.97),
+    -15px 0 10px -10px rgba(136, 136, 136, 0.97);
+  max-width: fit-content;
 }
-
-img {
-  margin: 1em;
-  filter: blur(0em);
-  transition: filter 0.5s;
-}
-
-img[data-src] {
+picture img[data-src] {
   filter: blur(0.2em);
+}
+picture img {
+  filter: none;
+  transition: filter 1s;
 }
