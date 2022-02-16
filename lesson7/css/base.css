@@ -41,4 +41,5 @@ picture img[data-src] {
 picture img {
   filter: none;
   transition: filter 1s;
+  width: 100%;
 }
