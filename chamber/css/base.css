@@ -315,3 +315,22 @@ span#currentDate {
   font-weight: 800;
   font-size: larger;
 }
+
+.discover_content picture {
+  display: block;
+  background-color: white;
+  padding: 10px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  box-shadow: 15px 0 10px -10px rgba(136, 136, 136, 0.97),
+    -15px 0 10px -10px rgba(136, 136, 136, 0.97);
+  max-width: fit-content;
+}
+.discover_content picture img[data-src] {
+  filter: blur(0.2em);
+}
+.discover_content picture img {
+  filter: none;
+  transition: filter 1s;
+  width: 100%;
+}
