@@ -33,4 +33,13 @@
   .weather {
     grid-area: 5 / 2 / 6 / 3;
   } /* end medium */
+  .discover_content {
+    grid-area: 1 / 1 / 2 / 3;
+  }
+  .discover_content p {
+    margin-bottom: 10px;
+  }
+  article {
+    margin-bottom: 100px;
+  }
 }

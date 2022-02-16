@@ -334,3 +334,11 @@ span#currentDate {
   transition: filter 1s;
   width: 100%;
 }
+
+.discover_content p {
+  margin-bottom: 10px;
+}
+article {
+  margin-bottom: 100px;
+  border-bottom: 1px solid var(--secondary-color);
+}
