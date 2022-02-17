@@ -342,3 +342,6 @@ article {
   margin-bottom: 100px;
   border-bottom: 1px solid var(--secondary-color);
 }
+article h2 {
+  text-align: center;
+}
