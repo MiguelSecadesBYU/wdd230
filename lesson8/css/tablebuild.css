@@ -41,3 +41,7 @@ td {
 tbody tr:nth-child(even) {
   background-color: #dee2e6;
 }
+.high {
+  background-color: #264653;
+  color: white;
+}
