@@ -14,12 +14,13 @@ table {
 tfoot {
   padding: 10px;
   caption-side: bottom;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   background-color: #ade8f4;
 }
 
 tr:first-child th {
   background-color: #ade8f4;
+  font-size: 24px;
   color: black;
 }
 
