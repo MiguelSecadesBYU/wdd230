@@ -7,7 +7,7 @@ body {
 table {
   margin: 10px auto;
   border: thin solid #6c757d;
-  box-shadow: 0 0 30px #6c757d;
+  box-shadow: 10px 10px 10px #495057;
   border-collapse: collapse;
 }
 
