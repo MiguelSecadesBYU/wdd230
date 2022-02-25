@@ -338,10 +338,59 @@ span#currentDate {
 .discover_content p {
   margin-bottom: 10px;
 }
+.gallery h1 {
+  text-align: center;
+}
 article {
   margin-bottom: 100px;
-  border-bottom: 1px solid var(--secondary-color);
 }
 article h2 {
+  text-align: center;
+}
+.demography {
+  border-bottom: 1px solid var(--secondary-color);
+}
+.demography h1 {
+  margin-bottom: 0.5rem;
+}
+.demography h1,
+h2 {
+  text-align: center;
+}
+.demography a {
+  color: white;
+}
+
+table {
+  margin: 10px auto;
+  border: thin solid #6c757d;
+  border-collapse: collapse;
+}
+
+tr:first-child th {
+  background-color: #219ebc;
+  font-size: 24px;
+  color: white;
+  padding: 10px;
+  font-size: 90%;
+}
+
+th,
+td {
+  padding: 7px 15px;
+  border: 1px solid #fff;
+  font-size: 90%;
+}
+
+th {
+  background-color: #8ecae6;
+  color: black;
+  font-size: 90%;
+}
+
+#pageVisits {
+  color: var(--secondary-color);
+  font-size: 1rem;
+  padding: 1em;
   text-align: center;
 }

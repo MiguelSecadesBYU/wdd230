@@ -46,4 +46,16 @@
     filter: grayscale(100%);
     box-shadow: 0 0 50px #333;
   }
+  tr:first-child th {
+    font-size: 100%;
+  }
+
+  th,
+  td {
+    font-size: 100%;
+  }
+
+  th {
+    font-size: 100%;
+  }
 }
