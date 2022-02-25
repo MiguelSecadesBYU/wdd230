@@ -101,4 +101,15 @@
   .discover_content {
     grid-area: 1 / 1 / 4 / 4;
   }
+  form label.top {
+    display: block;
+    padding-top: 1rem;
+    font-size: 1rem;
+    max-width: 40rem;
+  }
+  .mLevels {
+    top: 300px;
+    right: 50px;
+    width: 50%;
+  }
 } /* end large */
