@@ -315,6 +315,9 @@ span#currentDate {
   font-weight: 800;
   font-size: larger;
 }
+.discover_content {
+  font-size: 90%;
+}
 
 .discover_content picture {
   display: block;

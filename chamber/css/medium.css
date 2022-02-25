@@ -32,7 +32,10 @@
 
   .weather {
     grid-area: 5 / 2 / 6 / 3;
-  } /* end medium */
+  }
+  .discover_content {
+    font-size: 90%;
+  }
   .discover_content {
     grid-area: 1 / 1 / 2 / 3;
   }
