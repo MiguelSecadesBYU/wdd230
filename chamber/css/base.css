@@ -453,3 +453,34 @@ th {
   padding: 1em;
   text-align: center;
 }
+
+/********   DIRECTORY PAGE    **********/
+.directory_content {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.directory {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.directory section {
+  margin: 0.25rem;
+  padding: 0.35rem;
+  background-color: #black;
+  border: 1px solid #bbb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.directory img {
+  width: auto;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  max-width: 325px;
+  box-shadow: 0 0 30px #777;
+  height: 200px;
+  border: 1px solid #333;
+}
