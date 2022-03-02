@@ -1,4 +1,4 @@
-const requestURL = 'http://127.0.0.1:5500/chamber/data/data.json';
+const requestURL = ../data/data.json';
 const cards = document.querySelector('.directory');
 
 fetch(requestURL)
