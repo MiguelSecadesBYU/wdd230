@@ -458,15 +458,24 @@ th {
 .directory_content {
   margin: 0 auto;
   text-align: center;
+  width: 100%;
+}
+.listView section {
+  display: flex;
+  flex-direction: row;
 }
 
-.directory {
-  display: block;
-  grid-template-columns: 100%;
-  grid-gap: 5px;
+.listView img {
+  display: none;
 }
 
-/* (B) TRANSFORM INTO GRID VIEW */
+.cardView img {
+  display: flex;
+}
+.cardView em {
+  display: none;
+}
+
 .directory.grid {
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -474,15 +483,25 @@ th {
 .directory section {
   margin: 0.25rem;
   padding: 0.35rem;
-  background-color: #black;
+  background-color: black;
   border: 1px solid #bbb;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+
+.listView p {
+  width: 25%;
+  border-right: 1px solid #bbb;
+  font-size: 50%;
+}
+.listView em {
+  width: 25%;
+  border-right: 1px solid #bbb;
+  font-size: 50%;
+  font-weight: bold;
 }
 
 .directory img {
   width: auto;
+  margin: 0 auto;
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
   max-width: 325px;

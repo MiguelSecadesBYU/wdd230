@@ -22,7 +22,7 @@ const fulldate = new Intl.DateTimeFormat("en-UK", {
 	dateStyle: "full"}).format(today);
 
 document.getElementById('currentDate').innerHTML = `<em>${fulldate}</em>`;
-document.getElementById('hDate').innerHTML = `<em>${fulldate}</em>`;
+
 
 let dayOfWeek;
 const banner = document.getElementById("banner");

@@ -116,8 +116,30 @@
   /********   DIRECTORY PAGE    **********/
   .directory_content {
     grid-area: 1 / 1 / 4 / 4;
+    width: 100%;
   }
   .directory {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 5px;
+  }
+  .listView {
+    display: grid;
+  }
+
+  .listView p {
+    display: grid;
+  }
+
+  .cardView {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 5px;
+  }
+  .listView p {
+    font-size: 100%;
+  }
+  .listView em {
+    font-size: 100%;
   }
 } /* end large */

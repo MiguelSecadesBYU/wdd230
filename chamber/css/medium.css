@@ -78,9 +78,29 @@
 
   /********   DIRECTORY PAGE    **********/
   .directory {
-    grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 5px;
+  }
+  .listView {
+    display: grid;
   }
 
+  .listView p {
+    display: grid;
+  }
+
+  .cardView {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5px;
+  }
+  .listView p {
+    font-size: 100%;
+  }
+  .listView em {
+    font-size: 100%;
+  }
   .directory_content h1 {
     margin: 1rem;
     padding: 0.35rem;
