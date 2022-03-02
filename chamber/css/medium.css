@@ -82,12 +82,14 @@
     grid-template-columns: 100%;
     grid-gap: 5px;
   }
+
   .listView {
     display: grid;
   }
 
-  .listView p {
-    display: grid;
+  .listView section {
+    display: flex;
+    flex-direction: row;
   }
 
   .cardView {
@@ -96,10 +98,13 @@
     grid-column-gap: 5px;
   }
   .listView p {
-    font-size: 100%;
+    width: 25%;
+    border-left: 1px solid #bbb;
+    font-size: 65%;
   }
   .listView em {
-    font-size: 100%;
+    width: 25%;
+    font-size: 65%;
   }
   .directory_content h1 {
     margin: 1rem;

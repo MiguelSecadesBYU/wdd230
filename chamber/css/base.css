@@ -461,8 +461,7 @@ th {
   width: 100%;
 }
 .listView section {
-  display: flex;
-  flex-direction: row;
+  display: block;
 }
 
 .listView img {
@@ -488,13 +487,9 @@ th {
 }
 
 .listView p {
-  width: 25%;
-  border-right: 1px solid #bbb;
   font-size: 50%;
 }
 .listView em {
-  width: 25%;
-  border-right: 1px solid #bbb;
   font-size: 50%;
   font-weight: bold;
 }
