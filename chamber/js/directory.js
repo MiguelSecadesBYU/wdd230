@@ -22,9 +22,9 @@ fetch(requestURL)
     
   
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. 
-    logo.setAttribute('src', business.imageurl);
-    logo.setAttribute('alt', 'Logo of  ' + business.name);
-    logo.setAttribute('loading', 'lazy');
+   // logo.setAttribute('src', business.imageurl);
+  //  logo.setAttribute('alt', 'Logo of  ' + business.name);
+    //logo.setAttribute('loading', 'lazy');
      
    
     // Change the textContent property of the p elements to contain the business info
@@ -34,7 +34,7 @@ fetch(requestURL)
   
 
     // Add/append the section(card) with the h2 element
-    card.appendChild(logo);
+    //card.appendChild(logo);
     card.appendChild(address);
     card.appendChild(phone);
     card.appendChild(website);
