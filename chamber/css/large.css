@@ -112,4 +112,12 @@
     right: 50px;
     width: 50%;
   }
+
+  /********   DIRECTORY PAGE    **********/
+  .directory_content {
+    grid-area: 1 / 1 / 4 / 4;
+  }
+  .directory {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 } /* end large */

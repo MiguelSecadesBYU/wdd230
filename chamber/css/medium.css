@@ -75,4 +75,15 @@
     top: 210px;
     right: 50px;
   }
+
+  /********   DIRECTORY PAGE    **********/
+  .directory {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .directory_content h1 {
+    margin: 1rem;
+    padding: 0.35rem;
+    text-align: left;
+  }
 }

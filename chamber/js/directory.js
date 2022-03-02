@@ -15,7 +15,7 @@ fetch(requestURL)
   function displayBusiness(business) {
     // Create elements to add to the document
     let card = document.createElement('section');
-    let logo = document.createElement('img');
+   // let logo = document.createElement('img');
     let address = document.createElement('p');
     let phone = document.createElement('p');
     let website = document.createElement('p');
@@ -38,7 +38,22 @@ fetch(requestURL)
     card.appendChild(address);
     card.appendChild(phone);
     card.appendChild(website);
-  
+
+      
     // Add/append the existing HTML div with the cards class with the section(card)
     cards.appendChild(card);
   }
+
+
+  window.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("bList").onclick = () => {
+     // document.getElementsByClassName("directory").classList.remove("grid");
+      cards.classList.remove("grid");
+      console.log("List View");
+    };
+    document.getElementById("bGrid").onclick = () => {
+     // document.getElementsByClassName("directory").classList.add("grid");
+      cards.classList.add("grid");
+      console.log("Card View");
+    };
+  });

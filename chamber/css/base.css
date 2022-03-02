@@ -461,7 +461,13 @@ th {
 }
 
 .directory {
-  display: grid;
+  display: block;
+  grid-template-columns: 100%;
+  grid-gap: 5px;
+}
+
+/* (B) TRANSFORM INTO GRID VIEW */
+.directory.grid {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
