@@ -1,4 +1,4 @@
-const requestURL = ../data/data.json';
+const requestURL = '../data/data.json';
 const cards = document.querySelector('.directory');
 
 fetch(requestURL)
