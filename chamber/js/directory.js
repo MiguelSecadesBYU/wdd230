@@ -1,4 +1,4 @@
-const requestURL = '../data/data.json';
+const requestURL = 'https://miguelsecadesbyu.github.io/wdd230/chamber/data/data.json';
 const cards = document.querySelector('.directory');
 
 fetch(requestURL)
