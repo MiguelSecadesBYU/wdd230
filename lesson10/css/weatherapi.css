@@ -1,0 +1,18 @@
+body {
+  font-size: 22px;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  background-image: url("../images/background.png");
+}
+
+h1 {
+  font-family: "Volkhov", serif;
+  border-bottom: 2px solid black;
+  padding: 0.8rem;
+}
+
+footer {
+  border-top: 2px solid black;
+  padding: 0.8rem;
+}
