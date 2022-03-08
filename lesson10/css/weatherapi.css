@@ -1,5 +1,5 @@
 body {
-  font-size: 22px;
+  font-size: 14px;
   margin: 0;
   font-family: "Open Sans", sans-serif;
   text-align: center;
@@ -15,4 +15,8 @@ h1 {
 footer {
   border-top: 2px solid black;
   padding: 0.8rem;
+}
+
+p {
+  padding: 0.75rem;
 }
