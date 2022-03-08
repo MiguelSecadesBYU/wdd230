@@ -68,7 +68,7 @@ main { /* 1 */
  */
 
 figure {
-  margin: 1em 40px;
+  /* margin: 1em 40px; */
 }
 
 /**
@@ -220,7 +220,6 @@ audio:not([controls]) {
 img {
   border-style: none;
   height: fit-content;
-  widh: 1;
 }
 
 /**

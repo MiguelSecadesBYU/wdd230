@@ -72,11 +72,12 @@
                 <!--<img src="images/weather.png" alt="weather information">-->
                 <h2>Weather</h2>
                 <div class="weatherImage">
-                    <img src="images/weather2.png">
+                    <img src="" alt="" id="weathericon" />
                 </div>
-                <span class="temperature">38</span><span class="tempUnits"> ºF</span>
-                <p>Wind Speed: </p> <span class="windSped">4.3</span><span class="speedUnits"> mph</span>
-                <p>Wind Chill: </p> <span id="windChill"></span><span class="chillUnits"> ºF</span>
+                <p class="temperature"><span id="current-temp"></span>&deg;F</p>
+                <p class="windSpeed">Wind Speed: <span id="current-wSpeed"></span> mph</p>
+                <p class="windChill">Wind Chill:  <span id="windChill"></span> ºF</p>
+                <p class="description"><span id="weatherDescription"></span></p>
             </div>
             <div class="news">
                 <h2>News release</h2>
@@ -126,5 +127,6 @@
     </div>
     <script src="js/scripts.js"></script>
     <script src="js/windchill.js"></script>
+    <script src="js/weatherapi.js"></script>
 </body>
 </html>

@@ -34,6 +34,11 @@
   .weather {
     grid-area: 5 / 2 / 6 / 3;
   }
+
+  .description {
+    margin-left: 0;
+    font-size: 20px;
+  }
   .discover_content {
     font-size: 90%;
   }

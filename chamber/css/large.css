@@ -97,7 +97,32 @@
   .weather {
     grid-area: 2 / 1 / 3 / 2;
   }
+  .weatherImage {
+    float: none;
+    text-align: center;
+  }
+  img#weathericon {
+    margin: 0 auto;
+    width: 300px;
+  }
+  .temperature {
+    font-size: 42px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -4rem;
+  }
+  .windSpeed,
+  .windChill,
+  .description {
+    font-size: 28px;
+    margin: 0 auto;
+    text-align: center;
+  }
 
+  .description {
+    margin-top: 1rem;
+    padding: 1rem;
+  }
   .discover_content {
     grid-area: 1 / 1 / 4 / 4;
   }
