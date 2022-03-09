@@ -102,8 +102,7 @@
     text-align: center;
   }
   img#weathericon {
-    margin: 0 auto;
-    width: 300px;
+    margin: 0 0 2rem;
   }
   .temperature {
     font-size: 42px;
