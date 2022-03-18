@@ -5,84 +5,96 @@
         "address": "Avda. Schultz, 99 - bajo dcha",
         "phone": "985 09 20 76",
         "website": "http://faseextra.com/",
-        "imageurl": "http://faseextra.com/wp-content/uploads/2020/05/fase-recortado.png"
+        "imageurl": "http://faseextra.com/wp-content/uploads/2020/05/fase-recortado.png",
+        "membership": "gold"
       },
       {
         "name": "Intermark Data SL",
         "address": "Avda. del Jardín Botánico nº 1345. Edificio Grupo Intermark",
         "phone": "985 19 55 56",
         "website": "https://www.intermarkit.es/es/",
-        "imageurl": "https://www.intermarkit.es/public/img/comun/portal/logoEmpresa.png"
+        "imageurl": "https://www.intermarkit.es/public/img/comun/portal/logoEmpresa.png",
+        "membership": "bronze"
       },
       {
         "name": "Catlove Coffee",
         "address": "C. de la Merced, 42",
         "phone": "635 76 37 76",
         "website": "https://catlovecoffee.com/",
-        "imageurl": "https://catlovecoffee.com/wp-content/uploads/2019/03/cropped-logo-rrss-5.jpg"
+        "imageurl": "https://catlovecoffee.com/wp-content/uploads/2019/03/cropped-logo-rrss-5.jpg",
+        "membership": "gold"
       },
       {
         "name": "ALBEN",
         "address": "C/Magnus Blikstad nº58, Oficina 6",
         "phone": "984 397 254",
         "website": "http://www.erpsistemas.net/",
-        "imageurl": "https://www.alben.es/wp-content/uploads/2015/05/logotipoALBENletras.png"
+        "imageurl": "https://www.alben.es/wp-content/uploads/2015/05/logotipoALBENletras.png",
+        "membership": "bronze"
       },
       {
         "name": "IZERTIS",
         "address": "Avda. del Jardín Botánico, 1345 Edificio Intra",
         "phone": "985 163 891",
         "website": "https://www.izertis.com/en/home",
-        "imageurl": "https://www.izertis.com/o/portal-izertis-theme/images/logo-color.png"
+        "imageurl": "https://www.izertis.com/o/portal-izertis-theme/images/logo-color.png",
+        "membership": "bronze"
       },
       {
         "name": "Infornet",
         "address": "Calle de las Cortes de Cádiz, 7",
         "phone": "984 394 924",
         "website": "https://holainfornet.com/",
-        "imageurl": "https://holainfornet.com/wp-content/uploads/2021/03/logo-infornet01-01.jpg"
+        "imageurl": "https://holainfornet.com/wp-content/uploads/2021/03/logo-infornet01-01.jpg",
+        "membership": "silver"
       },
       {
         "name": "La Buena Vida Fomento",
         "address": "C. Rodríguez San Pedro, 20",
         "phone": "984 39 80 67",
         "website": "https://labuenavidagijon.com/",
-        "imageurl": "https://labuenavidagijon.com/wp-content/uploads/2020/06/la-buena-vida-logo-1.png"
+        "imageurl": "https://labuenavidagijon.com/wp-content/uploads/2020/06/la-buena-vida-logo-1.png",
+        "membership": "gold"
       },
       {
         "name": "Arti pizza",
         "address": "Avda. Schultz 87",
         "phone": "984 18 42 69",
         "website": "https://artipizzaaltaglio.es/",
-        "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS1ve939oNn7igqR6PQRS8ZPvZfioUia0K4g&usqp=CAU"
+        "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS1ve939oNn7igqR6PQRS8ZPvZfioUia0K4g&usqp=CAU",
+        "membership": "gold"
       },
       {
         "name": "INDRA Software Lab",
         "address": "C/ Jimena Fernández de la Vega, nº 140 - Edificio Asturias",
         "phone": "985 195 230",
         "website": "https://www.indracompany.com/",
-        "imageurl": "https://www.indracompany.com/sites/all/themes/custom/indracompany_bs/logo.png"
+        "imageurl": "https://www.indracompany.com/sites/all/themes/custom/indracompany_bs/logo.png",
+        "membership": "bronze"
       },
       {
         "name": "Noega Systems S.L.",
         "address": "C/ Jimena Fernández de la Vega, nº 140 - Edificio Asturias",
         "phone": "984 190 927",
         "website": "https://www.noegasystems.com/",
-        "imageurl": "https://www.noegasystems.com/wp-content/uploads/Noega-Systems-logo-en1.jpg"
+        "imageurl": "https://www.noegasystems.com/wp-content/uploads/Noega-Systems-logo-en1.jpg",
+        "membership": "bronze"
       },
       {
         "name": "Duro Felguera S.A.",
         "address": "C/ Jimena Fernández de la Vega 15",
         "phone": "985 199 000",
         "website": "https://www.durofelguera.com/",
-        "imageurl": "https://www.durofelguera.com/img/comunes/encabezado/logo.gif"
+        "imageurl": "https://www.durofelguera.com/img/comunes/encabezado/logo.gif",
+        "membership": "bronze"
       },
       {
         "name": "Futuver",
         "address": "C/ Jimena Fernández de la Vega 55",
         "phone": "902 175 454",
         "website": "https://www.futuver.com/",
-        "imageurl": "https://www.softwaredoit.es/logotipos/futuver-consulting.jpg?t=2019-11-12_20_35_24q1+++++++++++++++++++++"
+        "imageurl": "https://www.softwaredoit.es/logotipos/futuver-consulting.jpg?t=2019-11-12_20_35_24q1+++++++++++++++++++++",
+        "membership": "gold"
       }
     ]
   }
