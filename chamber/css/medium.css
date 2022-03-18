@@ -42,7 +42,8 @@
   .discover_content {
     font-size: 90%;
   }
-  .discover_content {
+  .discover_content,
+  .thank_you_content {
     grid-area: 1 / 1 / 2 / 3;
   }
   .discover_content p {
@@ -51,9 +52,13 @@
   article {
     margin-bottom: 100px;
   }
-  .discover_content picture img:hover {
+  .discover_content picture img:hover,
+  .thank_you_content picture img:hover {
     filter: grayscale(100%);
     box-shadow: 0 0 50px #333;
+  }
+  .thank_you_content picture {
+    width: 50%;
   }
   tr:first-child th {
     font-size: 100%;

@@ -121,8 +121,12 @@
     margin-top: 1rem;
     padding: 1rem;
   }
-  .discover_content {
+  .discover_content,
+  .thank_you_content {
     grid-area: 1 / 1 / 4 / 4;
+  }
+  .thank_you_content picture {
+    width: 30%;
   }
   form label.top {
     display: block;

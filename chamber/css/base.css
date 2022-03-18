@@ -398,11 +398,13 @@ p.windChill {
   font-weight: 800;
   font-size: larger;
 }
-.discover_content {
+.discover_content,
+.thank_you_content {
   font-size: 90%;
 }
 
-.discover_content picture {
+.discover_content picture,
+.thank_you_content picture {
   display: block;
   background-color: white;
   padding: 10px;
@@ -412,15 +414,19 @@ p.windChill {
     -15px 0 10px -10px rgba(136, 136, 136, 0.97);
   max-width: fit-content;
 }
-.discover_content picture img[data-src] {
+.discover_content picture img[data-src],
+.thank_you_content picture img[data-src] {
   filter: blur(0.2em);
 }
-.discover_content picture img {
+.discover_content picture img,
+.thank_you_content picture img {
   filter: none;
   transition: filter 1s;
   width: 100%;
 }
-
+.thank_you_content h1 {
+  text-align: center;
+}
 .discover_content p {
   margin-bottom: 10px;
 }
