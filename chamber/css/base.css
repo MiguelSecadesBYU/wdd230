@@ -165,6 +165,15 @@ form label.top input:required:valid {
 .mLevels {
   display: none;
 }
+.contactInfo {
+  display: block;
+}
+.contactInfo li {
+  list-style: none;
+}
+iframe {
+  display: none;
+}
 
 header {
   background-color: var(--primary-color);

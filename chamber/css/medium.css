@@ -69,7 +69,8 @@
   }
 
   /* -------------------- FORM ---------------*/
-  .mLevels {
+  .mLevels,
+  .contactInfo {
     display: block;
     margin: 2rem 0;
     border: 1px solid var(--secondary-color);
@@ -79,6 +80,15 @@
     position: absolute;
     top: 210px;
     right: 50px;
+  }
+
+  iframe {
+    display: block;
+    width: 100%;
+    height: 40%;
+
+    margin-top: 0.85rem;
+    margin-bottom: 0.85rem;
   }
 
   /********   DIRECTORY PAGE    **********/
