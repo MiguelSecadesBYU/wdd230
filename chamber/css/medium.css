@@ -52,8 +52,7 @@
   article {
     margin-bottom: 100px;
   }
-  .discover_content picture img:hover,
-  .thank_you_content picture img:hover {
+  .discover_content picture img:hover {
     filter: grayscale(100%);
     box-shadow: 0 0 50px #333;
   }
