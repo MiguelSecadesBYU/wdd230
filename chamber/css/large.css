@@ -137,6 +137,11 @@
     width: 50%;
   }
 
+  .contactInfo {
+    width: 30%;
+    font-size: 150%;
+  }
+
   iframe {
     width: 100%;
     height: 100%;
