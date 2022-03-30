@@ -1,0 +1,61 @@
+@media only screen and (min-width: 992px) {
+  nav {
+    align-self: center;
+  }
+  nav button {
+    display: none;
+  }
+  nav ul#primaryNav {
+    display: flex;
+    justify-items: center;
+  }
+
+  nav ul li a {
+    border: none;
+    color: var(--typeface-color);
+  }
+
+  nav ul li a:hover {
+    background-color: var(--secondary-color);
+  }
+
+  nav ul li.active a {
+    background-color: var(--secondary-color);
+  }
+  .content_home {
+    margin-top: 30px;
+    margin-bottom: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .logo_big {
+    display: inline;
+    grid-area: 1 / 1 / 2 / 2;
+    padding: 20px;
+    align-self: center;
+    padding-top: 0;
+  }
+  .logo_big h1 {
+    display: inline;
+    margin-left: 10px;
+  }
+  .logo_small {
+    display: none;
+  }
+
+  .social_media h2 {
+    text-align: center;
+  }
+  .facebook_logo {
+    text-align: right;
+  }
+  .instagram_logo {
+    text-align: left;
+  }
+
+  .aButton {
+    padding: 10px 30px;
+    margin: 5rem;
+    font-size: 22px;
+  }
+} /*End large css*/

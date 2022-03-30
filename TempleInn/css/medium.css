@@ -1,0 +1,38 @@
+@media only screen and (min-width: 570px) {
+  .logo_small {
+    padding: 0.35rem;
+  }
+  .logo_small picture img {
+    width: 64px;
+  }
+  .content_home {
+    margin-top: 30px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  nav {
+    padding: 0.35rem;
+  }
+  #hamburgerBtn.open span:nth-child(2) {
+    font-size: 24px;
+  }
+  #hamburgerBtn span:nth-child(1) {
+    font-size: 24px;
+  }
+  .weather {
+    grid-template-columns: 0.5fr 1fr 1.5fr;
+    grid-template-rows: 0.5fr 1fr;
+  }
+  .weather h2 {
+    grid-area: 1 / 1 / 2 / 4;
+  }
+  .weather3Days {
+    grid-area: 2 / 3 / 3 / 4;
+  }
+  .weather3Days h2 {
+    text-align: center;
+  }
+  footer {
+    font-size: 16px;
+  }
+} /*End medium css*/

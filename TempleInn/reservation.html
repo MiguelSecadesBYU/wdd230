@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content ="Website of the Temple Inn & Suites hotel chain, where you can see information 
+    about the Temples and our hotel services. Reservations can also be made online. "> 
+    <title>The Temple Inn & Suites</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/small.css">
+</head>
+<body> 
+    <div id="alert"></div>
+    <header>
+        <div class="logo">
+            <picture>
+                <img src="images/logo_black.png" alt="Temple Inner & Suites Logo">
+            </picture>
+        </div>
+
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li class ="active"><a href="#">Home</a></li>
+                <li><a href="temple.html">Temple</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="services.html">Services</a></li>  
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <div class="content_home">
+            <div class="hero">
+                <picture>
+                    <source media="(max-width: 570px" srcset="images/hero_small.webp">
+                    <source media="(min-width: 571px" srcset="images/hero_medium.webp">
+                    <source media="(min-width: 990px" srcset="images/hero_large.webp">
+
+                    <img src="images/hero_small.webp" alt="Panoramic image of the Washington Temple">
+                </picture>
+                <h2>Washington DC Temple</h2>
+                <p>9900 Stoneybrook Dr Kensington</p>
+                <p>MD 20895-3199</p>
+                <p>United States</p>
+
+                <a href="reservation.html" target="_self" class="aButton">Book now!</a>
+            </div>
+
+
+        </div>
+    </main>
+    <footer>
+        
+        <img src="images/logo_white.png" alt="Temple Inner & Suites Logo"> Temple Inner & Suites
+        <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+        <div class="map_link">
+            <a href="https://goo.gl/maps/LQmezA5uyHV63SuMA" target="_blank"><img src="images/map-location-dot.png" alt="image of a map location dot"> Go to map.</a>
+        </div>
+
+        <div id="copyright">
+            <p>Miguel Secades García | 🏛 BYU-Idaho | WDD 230</p>
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
