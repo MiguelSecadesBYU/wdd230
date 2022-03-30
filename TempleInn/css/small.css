@@ -157,6 +157,9 @@ nav ul.open {
 .hero {
   margin-top: 0;
 }
+.hero h2 {
+  background-color: var(--background-color);
+}
 .hero picture img {
   width: 100%;
 }
@@ -253,4 +256,7 @@ nav ul.open {
 
 .social_media img {
   height: 32px;
+}
+.social_media img:hover {
+  height: 64px;
 }
