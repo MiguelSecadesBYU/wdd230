@@ -75,7 +75,7 @@ fetch(requestURL)
         num_likes++;
         // store the new number of likes value
         localStorage.setItem("likes-ls" + temple.temple_name, num_likes);
-    
+        window.location.reload();
     }
     
     
