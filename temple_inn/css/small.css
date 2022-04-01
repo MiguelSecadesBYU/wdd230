@@ -179,12 +179,17 @@ nav ul.open {
   width: 32px;
   cursor: pointer;
 }
+.content_temple section h2 {
+  background-color: var(--background-color);
+  padding: 0.35rem;
+}
 
 .hero {
   margin-top: 0;
 }
 .hero h2 {
   background-color: var(--background-color);
+  padding: 0.35rem;
 }
 .hero picture img {
   width: 100%;

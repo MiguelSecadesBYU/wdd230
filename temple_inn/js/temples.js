@@ -51,7 +51,7 @@ fetch(requestURL)
     ord_schedule.textContent = 'Ordinance schedule: ' + temple.ordinance_schedule;
     ses_schedule.textContent = 'Session schedule: ' + temple.session_schedule;
     clos_schedule.textContent = 'Closure schedule: ' + temple.closure_schedule;
-    likes_display.textContent = num_likes + ' likes.';
+    likes_display.textContent = ' ' + num_likes + ' likes.';
    
     card.appendChild(image);
     card.appendChild(temple_name); 

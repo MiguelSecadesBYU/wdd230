@@ -32,6 +32,9 @@
     padding-left: 3rem;
     padding-right: 3rem;
   }
+  .content_temple .temples {
+    grid-column-gap: 30px;
+  }
   .logo_big {
     display: inline;
     grid-area: 1 / 1 / 2 / 2;
