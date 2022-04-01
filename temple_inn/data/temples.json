@@ -1,0 +1,56 @@
+{
+    "temples": [
+        {
+            "templeName": "Washington D.C. Temple",
+            "location": "Kensington, United States",
+            "adress": "9900 Stoneybrook Dr, Kensington MD 20895-3199, United States",
+            "phone": "N/A",
+            "email": "N/A",
+            "services": "N/A",
+            "history": "Announced on 15 November 1968, Groundbreaking on 7 December 1968, Dedicated on 19 November 1974, Rededicated on 14 August 2022",
+            "ordinance_schedule": "Temple closed during renovation",
+            "session_schedule": "Temple closed during renovation",
+            "closure_schedule": "Temple closed during renovation",
+            "imageUrl": "https://assets.ldscdn.org/1d/54/1d544493ab28695b7030205cd94e5cd038b603cf/washington_dc_mormon_temple.jpeg"
+        },
+        {
+            "templeName": "Madrid Spain Temple",
+            "location": "Madrid, Spain",
+            "adress": "Calle del Templo Nº2, 28030 Madrid, Spain",
+            "phone": "(34) 91-214-2607",
+            "email": "N/A",
+            "services": "Clothing rental, Distribution center nearby",
+            "history": "Announced on 4 April 1993. Groundbreaing on 11 June 1996, Dedicated on 19 March 1999 ",
+            "ordinance_schedule": "Online Appointment",
+            "session_schedule": "Online Appointment",
+            "closure_schedule": "Online Appointment",
+            "imageUrl": "https://assets.ldscdn.org/80/5d/805d70b4606a3a2220b2291c80e954b86a8ee94b/madrid_spain_temple_lds.jpeg"
+        },
+        {
+            "templeName": "Manila Philippines Temple",
+            "location": "Quezon City, Philippines",
+            "adress": "11 Temple Drive corner Whiteplains Avenue, Greenmeadows Subdivision, UGONG NORTE, Quezon City, 1110 Metro Manila, Philippines",
+            "phone": "(63) 2-8635-9111",
+            "email": "N/A",
+            "services": "Clothing rental, Distribution center nearby",
+            "history": "Announced on 1 April 1981, Groundbreaking on 25 August 1982, Dedicated on 25 September 1984",
+            "ordinance_schedule": "N/A",
+            "session_schedule": "N/A",
+            "closure_schedule": "N/A",
+            "imageUrl": "https://assets.ldscdn.org/c6/4a/c64a6408b3b68c7873eaf06352c172a9c5eb5586/manila_philippines_temple_lds.jpeg"
+        },
+        {
+            "templeName": "Asunción Paraguay Temple",
+            "location": "Asunción, Paraguay",
+            "adress": "Avda Brasilia Esquina Avda España, Asunción, Paraguay",
+            "phone": "(595) 21-216-9200",
+            "email": "N/A",
+            "services": "Patron housing available, Distribution center nearby",
+            "history": "Announced on 2 April 2000, Groundbreaking on  February 2001, Dedicated on 19 May 2002, Rededicated on 3 November2019",
+            "ordinance_schedule": "N/A",
+            "session_schedule": "N/A",
+            "closure_schedule": "N/A",
+            "imageUrl": "https://assets.ldscdn.org/de/86/de863429c011114fd0a67481d633e3bb8b8e183f/asuncion_paraguay_temple.jpeg"
+        }
+    ]
+}
