@@ -45,12 +45,64 @@
             "address": "Avda Brasilia Esquina Avda España, Asunción, Paraguay",
             "phone": "(595) 21-216-9200",
             "email": "N/A",
-            "services": "Patron housing available, Distribution center nearby",
+            "services": "Patron housing, Distribution center nearby",
             "history": "Announced on 2 April 2000, Groundbreaking on  February 2001, Dedicated on 19 May 2002, Rededicated on 3 November2019",
             "ordinance_schedule": "N/A",
             "session_schedule": "N/A",
             "closure_schedule": "N/A",
             "imageUrl": "https://assets.ldscdn.org/de/86/de863429c011114fd0a67481d633e3bb8b8e183f/asuncion_paraguay_temple.jpeg"
+        },
+        {
+            "templeName": "Rome Italy Temple",
+            "location": "Rome, Italy",
+            "address": "Via di Settebagni 376, Rome RM, Italy",
+            "phone": "(39) 06-9480-5050",
+            "email": "N/A",
+            "services": "Clothing rental, Patron housing, Distribution center nearby",
+            "history": "Announced on 4 October 2008, Groundbreaking on 23 October 2010, Dedicated on 10 March 2019",
+            "ordinance_schedule": "Temple closed",
+            "session_schedule": "Temple closed",
+            "closure_schedule": "Temple closed",
+            "imageUrl": "https://assets.ldscdn.org/b5/37/b537f20ccdd2f7ba4f3413a055bcaab21fd3e107/rome_italy_temple.png"
+        },
+        {
+            "templeName": "Bern Switzerland Temple",
+            "location": "Zollikofen, Switzerland",
+            "address": "Tempelstrasse 2, CH-3052 Zollikofen, Switzerland",
+            "phone": "(41) 31-915-5252",
+            "email": "N/A",
+            "services": "Clothing rental, Patron housing, Distribution center nearby",
+            "history": "Announced on 1 July 1952, Groundbreaking on 5 August 1953, Dedicated on 11 September 1955, Rededicated on 23 October 1992",
+            "ordinance_schedule": "N/A",
+            "session_schedule": "N/A",
+            "closure_schedule": "N/A",
+            "imageUrl": "https://assets.ldscdn.org/5b/9b/5b9b4a953a54c9bca172028e8a5f1f71e6f4c5b3/bern_switzerland_temple_lds.jpeg"
+        },
+        {
+            "templeName": "Arequipa Peru Temple",
+            "location": "Arequipa, Peru",
+            "address": "Calle Cusco 380, Carmen Alto Distrito De Cayma, Arequipa, Peru",
+            "phone": "(51) 54-640-300",
+            "email": "N/A",
+            "services": "Distribution center nearby",
+            "history": "Announced on 6 October 2012, Groundbreaking on 4 March 2017, Dedicated on 15 December 2019",
+            "ordinance_schedule": "N/A",
+            "session_schedule": "N/A",
+            "closure_schedule": "N/A",
+            "imageUrl": "https://assets.ldscdn.org/77/01/77011c98a99dd1ded7a0451507b020c71c3efed8/arequipa_peru_temple.jpeg"
+        },
+        {
+            "templeName": "Barranquilla Colombia Temple",
+            "location": "Barranquilla Atlantico, Colombia",
+            "address": "Carrera 46 via al mar pr 107, Sentido: de Barranquilla a Cartagena, Barranquilla Atlantico, Colombia",
+            "phone": "(57) 5-310-0200",
+            "email": "N/A",
+            "services": "Distribution center nearby",
+            "history": "Announced on 1 October 2011, Groundbreaking on 20 February 2016, Dedicated on 9 December 2018",
+            "ordinance_schedule": "N/A",
+            "session_schedule": "N/A",
+            "closure_schedule": "N/A",
+            "imageUrl": "https://assets.ldscdn.org/60/01/600152c4cf0387c4028f66bfc0447acdef9251fe/barranquilla_columbia_temple_exterior.jpeg"
         }
     ]
 }

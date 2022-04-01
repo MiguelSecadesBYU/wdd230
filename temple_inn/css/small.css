@@ -177,6 +177,7 @@ nav ul.open {
 }
 .content_temple img.like:hover {
   width: 32px;
+  cursor: pointer;
 }
 
 .hero {

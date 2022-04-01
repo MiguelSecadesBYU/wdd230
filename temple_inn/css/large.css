@@ -25,7 +25,8 @@
   nav ul li.active a {
     background-color: var(--secondary-color);
   }
-  .content_home {
+  .content_home,
+  .content_temple {
     margin-top: 30px;
     margin-bottom: 3rem;
     padding-left: 3rem;
@@ -67,5 +68,9 @@
   }
   .weather h2 {
     text-align: center;
+  }
+  footer img {
+    width: 48px;
+    padding-top: 0.85rem;
   }
 } /*End large css*/

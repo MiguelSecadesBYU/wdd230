@@ -23,7 +23,12 @@ fetch(requestURL)
     let email = document.createElement('p');
     let services = document.createElement('p');
     let history = document.createElement('p');
+    let ord_schedule = document.createElement('p');
+    let ses_schedule = document.createElement('p');
+    let clos_schedule = document.createElement('p');
     let like = document.createElement('img');
+    const likes_display = document.createElement('span');
+    let num_likes = Number(window.localStorage.getItem("likes-ls" + temple.temple_name));
     
   
     
@@ -43,8 +48,11 @@ fetch(requestURL)
     email.textContent = 'Email: ' + temple.email;
     services.textContent = 'Services: ' + temple.services;
     history.textContent = 'History: ' + temple.history;
-
-    // Add/append the section(card) with the h2 element
+    ord_schedule.textContent = 'Ordinance schedule: ' + temple.ordinance_schedule;
+    ses_schedule.textContent = 'Session schedule: ' + temple.session_schedule;
+    clos_schedule.textContent = 'Closure schedule: ' + temple.closure_schedule;
+    likes_display.textContent = num_likes + ' likes.';
+   
     card.appendChild(image);
     card.appendChild(temple_name); 
     card.appendChild(address);
@@ -53,10 +61,27 @@ fetch(requestURL)
     card.appendChild(email);
     card.appendChild(services);
     card.appendChild(history);
+    card.appendChild(ord_schedule);
+    card.appendChild(ses_schedule);
+    card.appendChild(clos_schedule);
     card.appendChild(like);
+    card.appendChild(likes_display);
       
     // Add/append the existing HTML div with the cards class with the section(card)
     cards.appendChild(card);
+
+    function addLike(){
+        // increment the number of likes.
+        num_likes++;
+        // store the new number of likes value
+        localStorage.setItem("likes-ls" + temple.temple_name, num_likes);
+    
+    }
+    
+    
+    like.onclick = addLike;
   }
+
+
 
 
