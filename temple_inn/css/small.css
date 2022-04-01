@@ -147,12 +147,28 @@ nav ul.open {
 }
 /* -------------- MAIN -----------------------*/
 
-.content_home {
+.content_home,
+.content_temple {
   background-color: var(--primary-color);
   margin-top: 0.85rem;
   margin-bottom: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.content_temple {
+  padding-top: 1rem;
+}
+
+.content_temple img {
+  width: 100%;
+  margin-top: 0.85rem;
+}
+
+.content_temple section {
+  margin-bottom: 2rem;
+  border: 1px solid var(--background-color);
+  padding: 0.35rem;
 }
 .hero {
   margin-top: 0;
