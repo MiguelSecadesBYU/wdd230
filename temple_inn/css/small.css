@@ -163,13 +163,22 @@ nav ul.open {
 .content_temple img {
   width: 100%;
   margin-top: 0.85rem;
+  border-radius: 10px;
 }
 
 .content_temple section {
   margin-bottom: 2rem;
   border: 1px solid var(--background-color);
   padding: 0.35rem;
+  border-radius: 10px;
 }
+.content_temple img.like {
+  width: 24px;
+}
+.content_temple img.like:hover {
+  width: 32px;
+}
+
 .hero {
   margin-top: 0;
 }

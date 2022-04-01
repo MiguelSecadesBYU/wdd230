@@ -22,6 +22,7 @@ fetch(requestURL)
     let phone = document.createElement('p');
     let email = document.createElement('p');
     let services = document.createElement('p');
+    let history = document.createElement('p');
     let like = document.createElement('img');
     
   
@@ -30,7 +31,8 @@ fetch(requestURL)
     image.setAttribute('alt', 'images/like.png');
     image.setAttribute('loading', 'lazy');
 
-    like.setAttribute('src', temple.imageUrl);
+    like.setAttribute('src', 'images/like.png');
+    like.setAttribute('class', 'like');
      
    
     
@@ -40,7 +42,7 @@ fetch(requestURL)
     phone.textContent = 'Phone: ' + temple.phone;
     email.textContent = 'Email: ' + temple.email;
     services.textContent = 'Services: ' + temple.services;
-  
+    history.textContent = 'History: ' + temple.history;
 
     // Add/append the section(card) with the h2 element
     card.appendChild(image);
@@ -50,6 +52,7 @@ fetch(requestURL)
     card.appendChild(phone);
     card.appendChild(email);
     card.appendChild(services);
+    card.appendChild(history);
     card.appendChild(like);
       
     // Add/append the existing HTML div with the cards class with the section(card)
