@@ -42,8 +42,38 @@
 
     </header>
     <main>
-        <div class="reservation">
-
+        <div class="content_reservation">
+            <form method ="get" action ="thankyou.html">
+                <fieldset>
+                   
+                    <label class="top">First Name * <input type="text" name="fname" required></label>
+                    <label class="top">Last Name * <input type="text" name="lname" required></label>
+                    <label class="top">Phone * <input type="tel" name="phone" placeholder ="1235551234" required></label>
+                    <label class="top">Email <input type="email" name="email" placeholder ="example@email.com"></label>
+                    <label class="top">Home country  <input type="text" name="hcountry"></label>
+                    <label class="top">Destination city * <input type="text" name="dcity" required></label>
+                    <label class="top">Check-inn * <input type ="date" name="date" id="cinn" required></label>
+                    <label class="top">Check-out * <input type ="date" name="date" id="cout" required></label>
+                    <label class="top">Rooms * <input type="text" name="rooms" required></label>
+                    
+                    <div class="roomtype">
+                        <input type="radio" id="single" name="troom" value="single" checked><label for="single">Single</label>
+                    </div>
+                    <div class="roomtype">
+                        <input type="radio" id="doble" name="troom" value="double" checked><label for="double">Double</label>
+                    </div>
+                    <div class="roomtype">
+                        <input type="radio" id="suite" name="troom" value="suite" checked><label for="suite">Suite</label>
+                    </div>
+                    <label  class="top">Special accommodations <textarea name="accommodations" rows="10" cols="40" placeholder="Write special accomnodations here"></textarea></label>
+                    <div class="agreeterms">
+                        <input type="checkbox" id="agree" name="agree" value="agree" required ><label for="agree">agree to terms and conditions</label>
+                    </div>
+                    <input type="submit" value = "Book now" class="submitBtn">
+                </fieldset>
+           
+                
+            </form>
 
 
             <div class="social_media">
