@@ -56,17 +56,18 @@
                     <label class="top">Check-inn * <input type ="date" name="date" id="cinn" required></label>
                     <label class="top">Check-out * <input type ="date" name="date" id="cout" required></label>
                     <label class="top">Rooms * <input type="text" name="rooms" required></label>
-                    
-                    <div class="roomtype">
-                        <input type="radio" id="single" name="troom" value="single" checked><label for="single">Single</label>
+                    <div class="types">
+                        <div class="roomtype">
+                            <input type="radio" id="single" name="troom" value="single" checked><label for="single">Single</label>
+                        </div>
+                        <div class="roomtype">
+                            <input type="radio" id="doble" name="troom" value="double" checked><label for="double">Double</label>
+                        </div>
+                        <div class="roomtype">
+                            <input type="radio" id="suite" name="troom" value="suite" checked><label for="suite">Suite</label>
+                        </div>
                     </div>
-                    <div class="roomtype">
-                        <input type="radio" id="doble" name="troom" value="double" checked><label for="double">Double</label>
-                    </div>
-                    <div class="roomtype">
-                        <input type="radio" id="suite" name="troom" value="suite" checked><label for="suite">Suite</label>
-                    </div>
-                    <label  class="top">Special accommodations <textarea name="accommodations" rows="10" cols="40" placeholder="Write special accomnodations here"></textarea></label>
+                    <label  class="top special">Special accommodations <textarea name="accommodations" rows="10" cols="40" placeholder="Write special accomnodations here"></textarea></label>
                     <div class="agreeterms">
                         <input type="checkbox" id="agree" name="agree" value="agree" required ><label for="agree">agree to terms and conditions</label>
                     </div>

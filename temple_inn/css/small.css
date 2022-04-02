@@ -208,7 +208,7 @@ nav ul.open {
   text-decoration: none;
   font-family: "Francois One", sans-serif;
 }
-.aButton:hover {
+a.aButton:hover {
   background-color: var(--primary-color);
   color: var(--secondary-color);
 }
@@ -330,7 +330,7 @@ form label.top textarea{
   
 }
 
-[type="radio"] {
+[type="radio"], [type="checkbox"] {
   margin-top: 1rem;
   margin-right: 0.35rem;
 }
@@ -343,6 +343,14 @@ form input.submitBtn {
   margin: 0 0 2rem 2%;
   width: 96%;
   max-width: 20rem;
+  font-family: "Francois One", sans-serif;
+}
+
+
+form input.submitBtn:hover{
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: 1px solid var(--accent-color);
 }
 
 form label.top input:required,
