@@ -4,54 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content ="Website of the Temple Inn & Suites hotel chain, where you can see information 
-    about the Temples and our hotel services. Reservations can also be made online. "> 
-    <title>The Temple Inn & Suites</title>
+    <meta name="description" content ="Reservation page of the Website of the Temple Inn & Suites hotel chain, where you can made reservations on line. "> 
+    <title>The Temple Inn & Suites - Reservations</title>
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
 </head>
 <body> 
-    <div id="alert"></div>
+    <div id="close_alert"><span id="alert"></span></div>
     <header>
-        <div class="logo">
+        <div class="logo_small">
             <picture>
                 <img src="images/logo_black.png" alt="Temple Inner & Suites Logo">
             </picture>
+        </div>
+        <div class="logo_big">
+            <picture>
+                <img src="images/logo_letters_black.png" alt="Temple Inner & Suites Logo">
+            </picture>
+            <h1>Temple Inn & Suites</h1>
         </div>
 
         <nav>
             <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
             <ul id="primaryNav">
-                <li class ="active"><a href="#">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="temple.html">Temple</a></li>
-                <li><a href="reservation.html">Reservation</a></li>
+                <li class ="active"><a href="reservation.html">Reservation</a></li>
                 <li><a href="services.html">Services</a></li>  
             </ul>
         </nav>
 
     </header>
     <main>
-        <div class="content_home">
-            <div class="hero">
-                <picture>
-                    <source media="(max-width: 570px" srcset="images/hero_small.webp">
-                    <source media="(min-width: 571px" srcset="images/hero_medium.webp">
-                    <source media="(min-width: 990px" srcset="images/hero_large.webp">
+        <div class="reservation">
 
-                    <img src="images/hero_small.webp" alt="Panoramic image of the Washington Temple">
-                </picture>
-                <h2>Washington DC Temple</h2>
-                <p>9900 Stoneybrook Dr Kensington</p>
-                <p>MD 20895-3199</p>
-                <p>United States</p>
 
-                <a href="reservation.html" target="_self" class="aButton">Book now!</a>
+
+            <div class="social_media">
+                <h2>Visit us on our social media</h2>
+                <div class="facebook_logo"><a href="https://www.facebook.com/" target="_blank"><img src="images/facebook_logo.png" alt="Facebook logo"></a></div>
+                <div class="twitter_logo"><a href="https://twitter.com/" target="_blank"><img src="images/twitter_logo.png" alt="Twitter logo"></a></div>
+                <div class="instagram_logo"><a href="https://www.instagram.com/" target="_blank"><img src="images/instagram_logo.png" alt="Instagram logo"></a></div>
             </div>
-
-
         </div>
     </main>
     <footer>
@@ -67,5 +67,6 @@
         </div>
     </footer>
     <script src="js/scripts.js"></script>
+  
 </body>
 </html>
