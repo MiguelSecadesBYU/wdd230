@@ -28,7 +28,7 @@ fetch(requestURL)
     let clos_schedule = document.createElement('p');
     let like = document.createElement('img');
     const likes_display = document.createElement('span');
-    let num_likes = Number(window.localStorage.getItem("likes-ls" + temple.temple_name));
+    let num_likes = Number(window.localStorage.getItem(temple.templeName));
     
   
     
@@ -38,6 +38,7 @@ fetch(requestURL)
 
     like.setAttribute('src', 'images/like.png');
     like.setAttribute('class', 'like');
+    like.setAttribute('id', temple.templeName);
      
    
     
@@ -74,7 +75,8 @@ fetch(requestURL)
         // increment the number of likes.
         num_likes++;
         // store the new number of likes value
-        localStorage.setItem("likes-ls" + temple.temple_name, num_likes);
+        
+        localStorage.setItem(like.id, num_likes);
         window.location.reload();
     }
     
