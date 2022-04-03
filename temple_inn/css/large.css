@@ -1,6 +1,7 @@
 @media only screen and (min-width: 992px) {
   body {
     font-size: 18px;
+    
   }
   nav {
     align-self: center;
@@ -26,7 +27,8 @@
     background-color: var(--secondary-color);
   }
   .content_home,
-  .content_temple {
+  .content_temple, 
+  .content_reservation {
     margin-top: 30px;
     margin-bottom: 3rem;
     padding-left: 3rem;
@@ -35,6 +37,13 @@
   .content_temple .temples {
     grid-column-gap: 30px;
   }
+.content_reservation{
+  background-image: url("../images/reservations_background.webp");
+  padding-bottom: 2rem;
+}
+.content_reservation h2{
+  text-align: center
+}
   .logo_big {
     display: inline;
     grid-area: 1 / 1 / 2 / 2;
@@ -49,7 +58,14 @@
   .logo_small {
     display: none;
   }
-
+.social_media{
+  width: 50%;
+  margin: 0 auto;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  margin-top: 2rem;
+ 
+}
   .social_media h2 {
     text-align: center;
   }
@@ -72,8 +88,21 @@
   .weather h2 {
     text-align: center;
   }
+
   footer img {
     width: 48px;
     padding-top: 0.85rem;
   }
+
+/* ----------------- FORM ---------------------*/
+
+form  {
+ width: 50%;
+ margin: 0 auto;
+ background-color: var(--primary-color);
+ border-radius: 10px;
+ opacity: 0.9;
+  }
+
+
 } /*End large css*/
