@@ -43,37 +43,33 @@
 
 /* ----------------- FORM ---------------------*/
 
-form fieldset {
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-grid-template-rows: repeat(5, 1fr) 2.5fr repeat(2, 1fr);
-align-content: center;
+form  {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 0.5fr repeat(5, 1fr) 2.5fr repeat(2, 1fr);
+  align-content: center;
+}
+form h2{
+  grid-area: 1 / 1 / 2 / 3;
+  
 }
 
 form label.top {
   display: inline;
-
 }
 
 .agreeterms{
 grid-column: 1;
 }
 form input.submitBtn {
-  grid-column: 1/3;
+  grid-area: 9 / 1 / 10 / 3;
   
 }
 
-form label.top input,
-form label.top textarea{
+form label.top input{
   display: inline;
 }
-form label.special{
- grid-column: 1/3;
-  
-}
-.types{
-  align-self: center;
-}
+
 
 
 

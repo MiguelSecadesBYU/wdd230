@@ -292,7 +292,7 @@ a.aButton:hover {
 
 /* ----------------- FORM ---------------------*/
 
-form fieldset {
+form {
   
   border: 1px solid var(--background-color);
   border-radius: 10px;

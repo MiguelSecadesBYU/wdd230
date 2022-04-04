@@ -43,9 +43,9 @@
     </header>
     <main>
         <div class="content_reservation">
-            <h2>Make your reservation</h2>
+            
             <form method ="get" action ="thankyou.html">
-                <fieldset>
+                <h2>Make your reservation</h2>
                    
                     <label class="top">First Name * <input type="text" name="fname" required></label>
                     <label class="top">Last Name * <input type="text" name="lname" required></label>
@@ -61,10 +61,10 @@
                             <input type="radio" id="single" name="troom" value="single" checked><label for="single">Single</label>
                         </div>
                         <div class="roomtype">
-                            <input type="radio" id="doble" name="troom" value="double" checked><label for="double">Double</label>
+                            <input type="radio" id="double" name="troom" value="double" ><label for="double">Double</label>
                         </div>
                         <div class="roomtype">
-                            <input type="radio" id="suite" name="troom" value="suite" checked><label for="suite">Suite</label>
+                            <input type="radio" id="suite" name="troom" value="suite" ><label for="suite">Suite</label>
                         </div>
                     </div>
                     <label  class="top special">Special accommodations <textarea name="accommodations" rows="10" cols="40" placeholder="Write special accomnodations here"></textarea></label>
@@ -72,7 +72,7 @@
                         <input type="checkbox" id="agree" name="agree" value="agree" required ><label for="agree">agree to terms and conditions</label>
                     </div>
                     <input type="submit" value = "Book now" class="submitBtn">
-                </fieldset>
+               
            
                 
             </form>
