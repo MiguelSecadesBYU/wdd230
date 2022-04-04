@@ -150,7 +150,8 @@ nav ul.open {
 .content_home,
 .content_temple,
 .content_reservation, 
-.content_thankyou {
+.content_thankyou,
+.content_services {
   background-color: var(--primary-color);
   margin-top: 0.85rem;
   margin-bottom: 1rem;
@@ -181,7 +182,11 @@ nav ul.open {
   width: 32px;
   cursor: pointer;
 }
-.content_temple section h2, .content_reservation h2, .hero h2, .content_thankyou h2 {
+.content_temple section h2, 
+.content_reservation h2, 
+.hero h2, 
+.content_thankyou h2,
+.content_services h2 {
   background-color: var(--background-color);
   padding: 0.35rem;
 }
@@ -369,5 +374,12 @@ form label.top textarea:required:valid {
 }
 .thank_you_message h2{
   text-align: center;
+ }
+
+
+ /*------------- SERVICES -----------------*/
+
+ .subpages image{
+   width: 570px;
  }
 
