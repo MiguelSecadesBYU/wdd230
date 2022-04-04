@@ -28,7 +28,8 @@
   }
   .content_home,
   .content_temple, 
-  .content_reservation {
+  .content_reservation,
+  .content_thankyou {
     margin-top: 30px;
     margin-bottom: 3rem;
     padding-left: 3rem;
@@ -60,15 +61,19 @@
     display: none;
   }
 .social_media{
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
   background-color: var(--primary-color);
   border-radius: 10px;
   margin-top: 2rem;
   opacity: 0.9;
 }
+.content_reservation .social_media{
+  width: 50%;
+}
   .social_media h2{
     text-align: center;
+    
   }
   .facebook_logo {
     text-align: right;

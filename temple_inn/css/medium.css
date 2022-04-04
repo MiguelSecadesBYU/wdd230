@@ -5,7 +5,8 @@
   .logo_small picture img {
     width: 64px;
   }
-  .content_home {
+  .content_home,
+  .content_thankyou {
     margin-top: 30px;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -69,8 +70,6 @@ form input.submitBtn {
 form label.top input{
   display: inline;
 }
-
-
 
 
 } /*End medium css*/
