@@ -378,8 +378,11 @@ form label.top textarea:required:valid {
 
 
  /*------------- SERVICES -----------------*/
-
- .subpages image{
-   width: 570px;
+ .subpages {
+  margin-top: 3rem;
+}
+ .subpages img{
+   width: 100%;
+   margin-bottom: 2rem;
  }
 

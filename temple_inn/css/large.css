@@ -29,7 +29,8 @@
   .content_home,
   .content_temple, 
   .content_reservation,
-  .content_thankyou {
+  .content_thankyou,
+  .content_services {
     margin-top: 30px;
     margin-bottom: 3rem;
     padding-left: 3rem;
@@ -109,5 +110,22 @@ form  {
  border-radius: 10px;
  opacity: 0.9;
   }
+
+
+/*---------- SERVICES -------- */
+.subpages {
+  grid-template-columns: repeat(2, 0.5fr);
+  grid-template-rows: 0.5fr;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  grid-column-gap: 0;
+}
+.subpages a{
+  margin: 0 auto;
+}
+.subpages img{
+  width: 80%;
+  
+}
 
 } /*End large css*/

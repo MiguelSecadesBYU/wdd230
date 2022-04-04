@@ -6,7 +6,8 @@
     width: 64px;
   }
   .content_home,
-  .content_thankyou {
+  .content_thankyou,
+  .content_services {
     margin-top: 30px;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -71,5 +72,13 @@ form label.top input{
   display: inline;
 }
 
+/*------------- SERVICES --------------------*/
+
+.subpages {
+  display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 50px;
+}
 
 } /*End medium css*/
