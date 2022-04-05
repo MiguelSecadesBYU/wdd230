@@ -151,7 +151,8 @@ nav ul.open {
 .content_temple,
 .content_reservation, 
 .content_thankyou,
-.content_services {
+.content_services,
+.content_receptions {
   background-color: var(--primary-color);
   margin-top: 0.85rem;
   margin-bottom: 1rem;
@@ -186,7 +187,8 @@ nav ul.open {
 .content_reservation h2, 
 .hero h2, 
 .content_thankyou h2,
-.content_services h2 {
+.content_services h2,
+.content_receptions h2{
   background-color: var(--background-color);
   padding: 0.35rem;
 }
@@ -384,5 +386,15 @@ form label.top textarea:required:valid {
  .subpages img{
    width: 100%;
    margin-bottom: 2rem;
+ }
+
+ /*---------- RECEPTIONS ------------------*/
+
+ .menu_options {
+   margin-bottom: 3rem;
+   padding-bottom: 0.85rem;
+ }
+ .menu_options p{
+   margin-top: 3rem;
  }
 
