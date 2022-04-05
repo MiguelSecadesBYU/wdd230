@@ -152,7 +152,8 @@ nav ul.open {
 .content_reservation, 
 .content_thankyou,
 .content_services,
-.content_receptions {
+.content_receptions,
+.content_missionary {
   background-color: var(--primary-color);
   margin-top: 0.85rem;
   margin-bottom: 1rem;
@@ -160,17 +161,24 @@ nav ul.open {
   padding-right: 1rem;
 }
 
-.content_temple, .content_reservation, .content_thankyou {
+.content_temple, 
+.content_reservation, 
+.content_thankyou{
   padding-top: 1rem;
 }
 
-.content_temple img {
+.content_temple img,
+.content_missionary .rooms img,
+.subpages a img {
   width: 100%;
   margin-top: 0.85rem;
   border-radius: 10px;
 }
 
-.content_temple section {
+.content_temple section,
+.rooms .single,
+.rooms .double,
+.rooms .suite {
   margin-bottom: 2rem;
   border: 1px solid var(--background-color);
   padding: 0.35rem;
@@ -188,7 +196,8 @@ nav ul.open {
 .hero h2, 
 .content_thankyou h2,
 .content_services h2,
-.content_receptions h2{
+.content_receptions h2,
+.content_missionary h2{
   background-color: var(--background-color);
   padding: 0.35rem;
 }
@@ -399,3 +408,10 @@ form label.top textarea:required:valid {
    margin-top: 3rem;
  }
 
+
+
+ /*----------------- FULL-TIME TEMPLE MISSIONARY ------------------*/
+
+.rooms{
+  margin-top: 5rem;
+}

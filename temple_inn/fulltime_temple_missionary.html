@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content ="Full-time temple missionary page of the website of the Temple Inn & Suites hotel chain, where you can see information and images about the suites offered at the hotel."> 
+    <title>The Temple Inn & Suites - Full-time temple missionary</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body> 
+    <div id="close_alert"><span id="alert"></span></div>
+    <header>
+        <div class="logo_small">
+            <picture>
+                <img src="images/logo_black.png" alt="Temple Inner & Suites Logo">
+            </picture>
+        </div>
+        <div class="logo_big">
+            <picture>
+                <img src="images/logo_letters_black.png" alt="Temple Inner & Suites Logo">
+            </picture>
+            <h1>Temple Inn & Suites</h1>
+        </div>
+
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="temple.html">Temple</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li class ="active"><a href="services.html">Services</a></li>  
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <div class="content_missionary">
+            <div class="hero">
+                <picture>
+                    <source media="(max-width: 570px)" srcset="images/hero_missionary_small.webp">
+                    <source media="(min-width: 571px)" srcset="images/hero_missionary_medium.webp">
+                    <source media="(min-width: 990px)" srcset="images/hero_missionary_large.webp">
+
+                    <img src="images/hero_missionary_small.webp" alt="photo of a hotel room">
+                </picture>
+                <h2>Full-time temple missionary</h2>
+                <p>Full-time temple missionaries consecrate their lives to God and work hard to keep the operations of the temple and sacred ordinances running as smoothly as possible, taking great 
+                    care in every detail. From the Temple Inn & Suites, we want to thank you for your enormous dedication to our Heavenly Father, and for this, we offer you the best amenities in spacious, 
+                    comfortable rooms with all the peace and tranquility you need to always have the spirit with you. 
+                </p>
+            </div>
+           <div class="rooms">
+               <h2>Rooms</h2>
+                <div class="single">
+                    <img src="images/single_room.webp" alt="Photo of a single room">
+                    <h3>Single Room</h3>
+                    <ul>
+                        <li>Wide bed</li>
+                        <li>Television</li>
+                        <li>Air-conditioning</li>
+                        <li>Fully equipped bathroom with hydromassage shower</li>
+                    </ul>
+                </div>
+                <div class="double">
+                    <img src="images/double_room.webp" alt="Photo of a double room">
+                    <h3>Double Room</h3>
+                    <ul>
+                        <li>Wide double bed</li>
+                        <li>Television</li>
+                        <li>Air-conditioning</li>
+                        <li>Desk</li>
+                        <li>Couch</li>
+                        <li>Complete bathroom with shower and hydromassage bathtub</li>
+                    </ul>
+                </div>
+                <div class="suite">
+                    <img src="images/suite_room.webp" alt="Photo of a suite room">
+                    <h3>Suite Room</h3>
+                    <ul>
+                        <li>King size bed</li>
+                        <li>Television</li>
+                        <li>Air-conditioning</li>
+                        <li>Desk</li>
+                        <li>Couch</li>
+                        <li>Complete bathroom with shower, hydromassage bathtub and Jacuzzi</li>
+                        <li>Safe</li>
+                        <li>Terrace</li>
+                    </ul>
+                </div>
+           </div>
+           <div class="contact_more_details">
+               <h2>Contact Us form for more details</h2>
+               <form method ="get" action ="thankyou.html">
+                    <label class="top">First Name * <input type="text" name="fname" required></label>
+                    <label class="top">Last Name * <input type="text" name="lname" required></label>
+                    <label class="top">Phone <input type="tel" name="phone" placeholder ="1235551234" ></label>
+                    <label class="top">Email *<input type="email" name="email" placeholder ="example@email.com" required></label>
+                    <label  class="top question">Type your question <textarea name="questions" rows="10" cols="40" placeholder="Write your questions here"></textarea></label>
+                    <div class="agreeterms">
+                        <input type="checkbox" id="agree" name="agree" value="agree" required ><label for="agree">agree to terms and conditions</label>
+                    </div>
+                    <input type="submit" value = "Book now" class="submitBtn">
+               
+           
+                
+            </form>
+           </div>
+
+        </div>
+    </main>
+    <footer>
+        
+        <img src="images/logo_white.png" alt="Temple Inner & Suites Logo"> Temple Inner & Suites
+        <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+        <div class="map_link">
+            <a href="https://goo.gl/maps/LQmezA5uyHV63SuMA" target="_blank"><img src="images/map-location-dot.png" alt="image of a map location dot"> Go to map.</a>
+        </div>
+
+        <div id="copyright">
+            <p>Miguel Secades García | 🏛 BYU-Idaho | WDD 230</p>
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+
+</body>
+</html>
