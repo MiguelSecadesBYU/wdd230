@@ -30,7 +30,8 @@
   .content_temple, 
   .content_reservation,
   .content_thankyou,
-  .content_services {
+  .content_services,
+  .content_receptions {
     margin-top: 30px;
     margin-bottom: 3rem;
     padding-left: 3rem;
@@ -44,7 +45,8 @@
   background-size: cover;
   padding-bottom: 2rem;
 }
-.content_reservation h2{
+.content_reservation h2,
+.content_receptions h2{
   text-align: center
 }
   .logo_big {
@@ -92,6 +94,7 @@
   .hero {
     text-align: center;
   }
+  
   .weather h2 {
     text-align: center;
   }
@@ -128,4 +131,33 @@ form  {
   
 }
 
+
+/*----------------- RECEPTIONS ----------------------*/
+
+ 
+
+.menu_options{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 0.5fr repeat(2, 1fr) 0.5fr;
+  margin-top: 3rem;
+}
+.menu_options h2{
+  grid-area: 1 / 1 / 2 / 4;
+}
+.Appetizers{
+  grid-area: 2 / 2 / 3 / 3;
+}
+.menu1{
+  grid-area: 3 / 1 / 4 / 2; 
+}
+.menu2{
+  grid-area: 3 / 2 / 4 / 3;
+}
+.menu3{
+  grid-area: 3 / 3 / 4 / 4; 
+}
+.menu_options p{
+  grid-area: 4 / 1 / 5 / 4;
+}
 } /*End large css*/

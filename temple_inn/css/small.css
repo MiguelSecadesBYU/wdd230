@@ -203,6 +203,7 @@ nav ul.open {
 
 .hero p {
   margin-bottom: -0.35rem;
+  text-align:justify;
 }
 
 .aButton {
