@@ -8,7 +8,8 @@
   .content_home,
   .content_thankyou,
   .content_services,
-  .content_receptions {
+  .content_receptions,
+  .content_missionary {
     margin-top: 30px;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -80,6 +81,34 @@ form label.top input{
 grid-template-columns: repeat(2, 1fr);
 grid-template-rows: 1fr;
 grid-column-gap: 50px;
+}
+
+
+/*------------------- FULL-TIME TEMPLE MISSIONARY -----------*/
+.rooms{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 0.1fr repeat(2, 1fr);
+  grid-column-gap: 20px;
+}
+.rooms h2{
+  grid-area: 1 / 1 / 2 / 3;
+}
+
+.contact_more_details form{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 0.2fr repeat(2, 1fr) 2fr 0.5fr 1fr;
+  
+}
+.contact_more_details form input.submitBtn{
+  grid-area: 6 / 1 / 7 / 3;
+}
+.contact_more_details form label.top textarea{
+  grid-area: 4 / 1 / 5 / 3;
+}
+.contact_more_details form input.submitBtn{
+  grid-area: 5 / 1 / 6 / 2;
 }
 
 } /*End medium css*/

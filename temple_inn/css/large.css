@@ -160,4 +160,34 @@ form  {
 .menu_options p{
   grid-area: 4 / 1 / 5 / 4;
 }
+
+/*------------------- FULL-TIME TEMPLE MISSIONARY -----------*/
+.rooms{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 0.1fr 1fr;
+  
+}
+.rooms h2{
+  grid-area: 1 / 1 / 2 / 4;
+  text-align: center;
+}
+.contact_more_details h2{
+  display:none;
+}
+.more_details_h2{
+  display: block;
+  text-align: center;
+}
+
+.contact_more_details form  {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr) 2fr repeat(2, 1fr);
+}
+
+.contact_more_details form label.top textarea{
+  grid-area: 3 / 1 / 4 / 3;
+}
+
 } /*End large css*/

@@ -415,3 +415,6 @@ form label.top textarea:required:valid {
 .rooms{
   margin-top: 5rem;
 }
+.more_details_h2{
+  display: none;
+}
